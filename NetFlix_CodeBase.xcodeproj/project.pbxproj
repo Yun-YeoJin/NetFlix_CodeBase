@@ -13,6 +13,16 @@
 		AE3E1E3428AF728C00E9530A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3E1E3228AF728C00E9530A /* Main.storyboard */; };
 		AE3E1E3628AF728D00E9530A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3E1E3528AF728D00E9530A /* Assets.xcassets */; };
 		AE3E1E3928AF728D00E9530A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3E1E3728AF728D00E9530A /* LaunchScreen.storyboard */; };
+		AE3E1E4328AF732500E9530A /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E4228AF732500E9530A /* TextField.swift */; };
+		AE3E1E4528AF77F600E9530A /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E4428AF77F600E9530A /* BaseView.swift */; };
+		AE3E1E4728AF789100E9530A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E4628AF789100E9530A /* BaseViewController.swift */; };
+		AE3E1E4A28AF79F600E9530A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E4928AF79F600E9530A /* MainViewController.swift */; };
+		AE3E1E4C28AF79FC00E9530A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E4B28AF79FC00E9530A /* MainView.swift */; };
+		AE3E1E4F28AF7A3700E9530A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E4E28AF7A3700E9530A /* LoginViewController.swift */; };
+		AE3E1E5128AF7A3F00E9530A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E5028AF7A3F00E9530A /* LoginView.swift */; };
+		AE3E1E5428AF7CD200E9530A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AE3E1E5328AF7CD200E9530A /* SnapKit */; };
+		AE3E1E5628AF813000E9530A /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E5528AF813000E9530A /* UIButton.swift */; };
+		AE3E1E5928AF9A8600E9530A /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = AE3E1E5828AF9A8600E9530A /* Then */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,14 @@
 		AE3E1E3528AF728D00E9530A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3E1E3828AF728D00E9530A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3E1E3A28AF728D00E9530A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3E1E4228AF732500E9530A /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		AE3E1E4428AF77F600E9530A /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		AE3E1E4628AF789100E9530A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		AE3E1E4928AF79F600E9530A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AE3E1E4B28AF79FC00E9530A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AE3E1E4E28AF7A3700E9530A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AE3E1E5028AF7A3F00E9530A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AE3E1E5528AF813000E9530A /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3E1E5428AF7CD200E9530A /* SnapKit in Frameworks */,
+				AE3E1E5928AF9A8600E9530A /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +76,9 @@
 		AE3E1E2B28AF728B00E9530A /* NetFlix_CodeBase */ = {
 			isa = PBXGroup;
 			children = (
+				AE3E1E4D28AF7A2400E9530A /* LoginViewController */,
+				AE3E1E4828AF79E200E9530A /* MainViewController */,
+				AE3E1E4028AF72F500E9530A /* Utility */,
 				AE3E1E2C28AF728C00E9530A /* AppDelegate.swift */,
 				AE3E1E2E28AF728C00E9530A /* SceneDelegate.swift */,
 				AE3E1E3028AF728C00E9530A /* ViewController.swift */,
@@ -65,6 +88,43 @@
 				AE3E1E3A28AF728D00E9530A /* Info.plist */,
 			);
 			path = NetFlix_CodeBase;
+			sourceTree = "<group>";
+		};
+		AE3E1E4028AF72F500E9530A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AE3E1E4128AF730000E9530A /* CustomView */,
+				AE3E1E4428AF77F600E9530A /* BaseView.swift */,
+				AE3E1E4628AF789100E9530A /* BaseViewController.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		AE3E1E4128AF730000E9530A /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				AE3E1E4228AF732500E9530A /* TextField.swift */,
+				AE3E1E5528AF813000E9530A /* UIButton.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		AE3E1E4828AF79E200E9530A /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE3E1E4928AF79F600E9530A /* MainViewController.swift */,
+				AE3E1E4B28AF79FC00E9530A /* MainView.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		AE3E1E4D28AF7A2400E9530A /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE3E1E4E28AF7A3700E9530A /* LoginViewController.swift */,
+				AE3E1E5028AF7A3F00E9530A /* LoginView.swift */,
+			);
+			path = LoginViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +143,10 @@
 			dependencies = (
 			);
 			name = NetFlix_CodeBase;
+			packageProductDependencies = (
+				AE3E1E5328AF7CD200E9530A /* SnapKit */,
+				AE3E1E5828AF9A8600E9530A /* Then */,
+			);
 			productName = NetFlix_CodeBase;
 			productReference = AE3E1E2928AF728B00E9530A /* NetFlix_CodeBase.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +175,10 @@
 				Base,
 			);
 			mainGroup = AE3E1E2028AF728B00E9530A;
+			packageReferences = (
+				AE3E1E5228AF7CD200E9530A /* XCRemoteSwiftPackageReference "SnapKit" */,
+				AE3E1E5728AF9A8600E9530A /* XCRemoteSwiftPackageReference "Then" */,
+			);
 			productRefGroup = AE3E1E2A28AF728B00E9530A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +206,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3E1E4F28AF7A3700E9530A /* LoginViewController.swift in Sources */,
+				AE3E1E4A28AF79F600E9530A /* MainViewController.swift in Sources */,
+				AE3E1E4C28AF79FC00E9530A /* MainView.swift in Sources */,
 				AE3E1E3128AF728C00E9530A /* ViewController.swift in Sources */,
 				AE3E1E2D28AF728C00E9530A /* AppDelegate.swift in Sources */,
+				AE3E1E4528AF77F600E9530A /* BaseView.swift in Sources */,
 				AE3E1E2F28AF728C00E9530A /* SceneDelegate.swift in Sources */,
+				AE3E1E4328AF732500E9530A /* TextField.swift in Sources */,
+				AE3E1E5628AF813000E9530A /* UIButton.swift in Sources */,
+				AE3E1E5128AF7A3F00E9530A /* LoginView.swift in Sources */,
+				AE3E1E4728AF789100E9530A /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +434,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE3E1E5228AF7CD200E9530A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		AE3E1E5728AF9A8600E9530A /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE3E1E5328AF7CD200E9530A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE3E1E5228AF7CD200E9530A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		AE3E1E5828AF9A8600E9530A /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE3E1E5728AF9A8600E9530A /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE3E1E2128AF728B00E9530A /* Project object */;
 }
