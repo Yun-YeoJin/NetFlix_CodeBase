@@ -13,7 +13,7 @@
 		AE3E1E3428AF728C00E9530A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3E1E3228AF728C00E9530A /* Main.storyboard */; };
 		AE3E1E3628AF728D00E9530A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3E1E3528AF728D00E9530A /* Assets.xcassets */; };
 		AE3E1E3928AF728D00E9530A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3E1E3728AF728D00E9530A /* LaunchScreen.storyboard */; };
-		AE3E1E4328AF732500E9530A /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E4228AF732500E9530A /* TextField.swift */; };
+		AE3E1E4328AF732500E9530A /* Login_TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E4228AF732500E9530A /* Login_TextField.swift */; };
 		AE3E1E4528AF77F600E9530A /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E4428AF77F600E9530A /* BaseView.swift */; };
 		AE3E1E4728AF789100E9530A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E4628AF789100E9530A /* BaseViewController.swift */; };
 		AE3E1E4A28AF79F600E9530A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E4928AF79F600E9530A /* MainViewController.swift */; };
@@ -21,8 +21,11 @@
 		AE3E1E4F28AF7A3700E9530A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E4E28AF7A3700E9530A /* LoginViewController.swift */; };
 		AE3E1E5128AF7A3F00E9530A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E5028AF7A3F00E9530A /* LoginView.swift */; };
 		AE3E1E5428AF7CD200E9530A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AE3E1E5328AF7CD200E9530A /* SnapKit */; };
-		AE3E1E5628AF813000E9530A /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E5528AF813000E9530A /* UIButton.swift */; };
+		AE3E1E5628AF813000E9530A /* Login_UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E5528AF813000E9530A /* Login_UIButton.swift */; };
 		AE3E1E5928AF9A8600E9530A /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = AE3E1E5828AF9A8600E9530A /* Then */; };
+		AE3E1E5D28B1218F00E9530A /* Main_UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E5C28B1218F00E9530A /* Main_UILabel.swift */; };
+		AE3E1E6128B125DD00E9530A /* Main_UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E6028B125DD00E9530A /* Main_UIButton.swift */; };
+		AE3E1E6328B12B5000E9530A /* Main_UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E1E6228B12B5000E9530A /* Main_UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,14 +37,17 @@
 		AE3E1E3528AF728D00E9530A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3E1E3828AF728D00E9530A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3E1E3A28AF728D00E9530A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE3E1E4228AF732500E9530A /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		AE3E1E4228AF732500E9530A /* Login_TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_TextField.swift; sourceTree = "<group>"; };
 		AE3E1E4428AF77F600E9530A /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		AE3E1E4628AF789100E9530A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		AE3E1E4928AF79F600E9530A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		AE3E1E4B28AF79FC00E9530A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		AE3E1E4E28AF7A3700E9530A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AE3E1E5028AF7A3F00E9530A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		AE3E1E5528AF813000E9530A /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		AE3E1E5528AF813000E9530A /* Login_UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_UIButton.swift; sourceTree = "<group>"; };
+		AE3E1E5C28B1218F00E9530A /* Main_UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_UILabel.swift; sourceTree = "<group>"; };
+		AE3E1E6028B125DD00E9530A /* Main_UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_UIButton.swift; sourceTree = "<group>"; };
+		AE3E1E6228B12B5000E9530A /* Main_UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_UIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,25 +99,25 @@
 		AE3E1E4028AF72F500E9530A /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				AE3E1E4128AF730000E9530A /* CustomView */,
 				AE3E1E4428AF77F600E9530A /* BaseView.swift */,
 				AE3E1E4628AF789100E9530A /* BaseViewController.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
 		};
-		AE3E1E4128AF730000E9530A /* CustomView */ = {
+		AE3E1E4128AF730000E9530A /* LoginCustomView */ = {
 			isa = PBXGroup;
 			children = (
-				AE3E1E4228AF732500E9530A /* TextField.swift */,
-				AE3E1E5528AF813000E9530A /* UIButton.swift */,
+				AE3E1E4228AF732500E9530A /* Login_TextField.swift */,
+				AE3E1E5528AF813000E9530A /* Login_UIButton.swift */,
 			);
-			path = CustomView;
+			path = LoginCustomView;
 			sourceTree = "<group>";
 		};
 		AE3E1E4828AF79E200E9530A /* MainViewController */ = {
 			isa = PBXGroup;
 			children = (
+				AE3E1E5B28B1217000E9530A /* MainCustomView */,
 				AE3E1E4928AF79F600E9530A /* MainViewController.swift */,
 				AE3E1E4B28AF79FC00E9530A /* MainView.swift */,
 			);
@@ -121,10 +127,21 @@
 		AE3E1E4D28AF7A2400E9530A /* LoginViewController */ = {
 			isa = PBXGroup;
 			children = (
+				AE3E1E4128AF730000E9530A /* LoginCustomView */,
 				AE3E1E4E28AF7A3700E9530A /* LoginViewController.swift */,
 				AE3E1E5028AF7A3F00E9530A /* LoginView.swift */,
 			);
 			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		AE3E1E5B28B1217000E9530A /* MainCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				AE3E1E5C28B1218F00E9530A /* Main_UILabel.swift */,
+				AE3E1E6028B125DD00E9530A /* Main_UIButton.swift */,
+				AE3E1E6228B12B5000E9530A /* Main_UIImageView.swift */,
+			);
+			path = MainCustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,8 +230,11 @@
 				AE3E1E2D28AF728C00E9530A /* AppDelegate.swift in Sources */,
 				AE3E1E4528AF77F600E9530A /* BaseView.swift in Sources */,
 				AE3E1E2F28AF728C00E9530A /* SceneDelegate.swift in Sources */,
-				AE3E1E4328AF732500E9530A /* TextField.swift in Sources */,
-				AE3E1E5628AF813000E9530A /* UIButton.swift in Sources */,
+				AE3E1E6328B12B5000E9530A /* Main_UIImageView.swift in Sources */,
+				AE3E1E5D28B1218F00E9530A /* Main_UILabel.swift in Sources */,
+				AE3E1E4328AF732500E9530A /* Login_TextField.swift in Sources */,
+				AE3E1E5628AF813000E9530A /* Login_UIButton.swift in Sources */,
+				AE3E1E6128B125DD00E9530A /* Main_UIButton.swift in Sources */,
 				AE3E1E5128AF7A3F00E9530A /* LoginView.swift in Sources */,
 				AE3E1E4728AF789100E9530A /* BaseViewController.swift in Sources */,
 			);

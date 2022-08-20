@@ -9,13 +9,18 @@ import UIKit
 
 class MainViewController: BaseViewController {
     
-  
+    var mainView = MainView()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        
+    override func loadView() {
+        self.view = mainView
+    }
+    
+    override func configure() {
         
     }
+    
+    
+    
+    
     
 }
